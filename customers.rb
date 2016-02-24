@@ -1,7 +1,7 @@
 class Customer
 
   attr_accessor (:customer_wallet)
-  attr_reader (:customer_name)
+  attr_reader :customer_name, :carry_case
 
 
   def initialize (customer_name, customer_wallet)
