@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/rg'
-require_relative '../danger_pets'
+require_relative './danger_pets'
 
 
 class TestPets< Minitest::Test
